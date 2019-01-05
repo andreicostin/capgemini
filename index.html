@@ -1,0 +1,159 @@
+<!doctype html>
+
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>HMRC - Renew your tax credits</title>
+	<meta name="description" content="Renew your tax credits">
+	<meta name="author" content="Andrei Costin">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="images/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="images/favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="images/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+	<link rel="stylesheet" href="css/main.css?v=1.0">
+  <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/medium.css?v=1.0">
+  <link rel="stylesheet" media="screen and (min-width: 900px)" href="css/large.css?v=1.0">
+  <link rel="stylesheet" media="print" href="css/print.css?v=1.0" >
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+
+	<header role="banner" class="header-container">
+    <div class="header-content">
+
+      <div class="logo-container">
+        <img
+          src="images/logo.png"
+          alt="HMRC Logo"
+          class="logo-image"
+        />
+        <div class="logo-text">
+          HM Revenue & Customs
+        </div>
+      </div>
+
+    </div>
+	</header>
+
+	<main role="main" class="main-container">
+    <div class="main-content">
+
+  		<h1 class="heading-large">Renew your tax credits</h1>
+      <h2 class="heading-medium">Your Details</h4>
+
+      <form action="" role="form">
+        <div class="form-group ni-number">
+          <label for="ni-number">
+            <strong>Your National Insurance number</strong>
+          </label>
+          <input type="text" id="ni-number" value="" class="form-control" />
+          <section class="help-ni-number toggle-container">
+            <a class="toggle-trigger" role="tab" href="#">Show me where to find this</a>
+            <div class="help-ni-number--content toggle-content">
+                Help message on how to find the NI number
+            </div>
+          </section>
+        </div>
+
+        <section class="help-tc-renewal-number">
+          <p>Your tax credits renewal number is the 15 digit number on the bottom
+            right hand corner of your annual declaration. Enter it below.</p>
+            <img
+              src="images/help-tc-renewal-number.png"
+              alt="where to find the tax credits renewal number"
+            />
+        </section>
+
+        <div class="form-group">
+          <label for="tc-renewal-number">
+            <strong>Your tax credits renewal number</strong>
+          </label>
+          <input
+            type="text"
+            id="tc-renewal-number"
+            class="form-control"
+            value=""
+            minlength=15 maxlength=15
+            pattern="\d*|.{15}"
+            />
+        </div>
+
+        <button role="button" type="submit" name="Next" class="button">
+          Next
+        </button>
+
+      </form>
+
+      <section class="help-with-page toggle-container">
+        <a class="toggle-trigger" role="tab" href="#">Get help with this page.</a>
+        <div class="help-with-page toggle-content">
+            Help message for help with the page
+        </div>
+      </section>
+    </div>
+	</main>
+
+	<footer role="footer" class="footer-container">
+    <div class="footer-content">
+
+      <nav role="navigation" class="footer-nav">
+        <ul>
+          <li>
+            <a href="#" role="menuitem" aria-label->Help</a>
+          </li>
+          <li>
+            <a href="#" role="menuitem">Cookies</a>
+          </li>
+          <li>
+            <a href="#" role="menuitem">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#" role="menuitem">Terms and conditions</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="footer-rights">
+        <img
+          src="images/ogl-logo.png"
+          alt="OGL Logo"
+        />
+        All content is available under the Open Government Licence v3.0,
+        except where otherwise stated
+      </div>
+
+	    <div class="footer-copyright">
+        <img
+          src="images/coat-of-arms.png"
+          alt="Coat of Arms"
+        />
+        <small>&copy; Crown Copyright</small>
+      </div>
+    </div>
+	</footer>
+
+  <script src="js/general.js"></script>
+
+</body>
+</html>

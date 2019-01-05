@@ -1,0 +1,37 @@
+
+/* FORMS */
+.form-control {
+  width: auto;
+}
+
+.button {
+  width: auto;
+}
+
+/* Main */
+.ni-number {
+  max-width: 450px;
+}
+.help-ni-number {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.help-ni-number--content {
+  position: absolute;
+}
+
+
+
+/* Footer */
+
+.footer-container {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.footer-copyright {
+  position: absolute;
+  bottom: 0; right: 0;
+}
