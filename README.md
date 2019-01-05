@@ -1,5 +1,13 @@
 # capgemini
 
+In order to run the following project you will have to set up a NodeJS server locally as follows:
+
+	1.	Download and Install nodejs ( https://nodejs.org/en/ )
+	2.	Open TERMINAL and run npm install -g http-server
+	3.	Go into the "capgemini" folder run http-server
+	4.	visit: http://localhost:8080
+
+
 The following exercise will be used to assess your ability to write good code. Specifically we want to assess your ability to write good semantic markup which is accessible. Bonus points will be awarded for mobile accessible solutions and those which can be rendered (to some degree) in a wide variety of browsers.
 
 Exercise:
@@ -11,3 +19,9 @@ Although HMRC is increasingly using frameworks such as AngularJS, we would like 
 
 
 # changes that I would've make
+
+I would've:
+- create a style guide stylesheet with helper and reusable classes;
+- used Webpack;
+- used SASS as a CSS preprocessor;
+-
