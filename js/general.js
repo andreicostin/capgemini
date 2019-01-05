@@ -1,9 +1,9 @@
 var toggle = document.querySelectorAll('.toggle-container');
 
 
-toggle.forEach(trigger => {
-  trigger.addEventListener('click', toggleAction);
-}, false);
+for(i = 0; i < toggle.length; i++) {
+  toggle[i].addEventListener('click', toggleAction);
+}
 
 function toggleAction(el) {
   el.preventDefault();
