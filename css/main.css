@@ -215,6 +215,7 @@ label {
   -webkit-appearance: none;
   background: #ffffff;
   line-height: 38px;
+  height: 40px;
   font-size: 16px;
   padding: 0 8px;
   display: block;
